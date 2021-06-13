@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Framework</groupId>
-  <artifactId>Project2</artifactId>
+  <artifactId>SeleniumFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Project2</name>
+  <name>SeleniumFramework</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -62,9 +62,14 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.8</version>
 </dependency>
+  <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
   
-  
-    <dependency>
+  <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
